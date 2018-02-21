@@ -11,8 +11,8 @@ class KotlinController {
     @ApiOperation(value = "doc header...", notes = "detailed doc...")
     @RequestMapping(value = "/kotlin", method = arrayOf(RequestMethod.GET))
     fun kotlinmethod(str: String): Person {
-        var s : String = "abc"
-        val t : String = "xyz"
+        var s : String = "java"
+        val t : String = "kotlin"
 
         var str = str + s + t
 
